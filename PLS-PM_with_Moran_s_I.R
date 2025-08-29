@@ -2,7 +2,6 @@
 # Option 1: SAR residualization -> PLS-PM
 # ===========================
 
-# 清理环境
 rm(list = ls())
 setwd("your/path")
 # loading packages
@@ -65,7 +64,7 @@ fix_blocks <- list(
   
 )
 
-fix_modes <- c("A","A","B","B","B")  # AsseP 若认为是 formative，可设 B；若反映型改 A
+fix_modes <- c("A","A","B","B","B")
 
 
 Elev      <- c(0,0,0,0,0)
